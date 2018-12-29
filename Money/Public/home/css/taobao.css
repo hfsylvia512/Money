@@ -1,0 +1,23 @@
+.errdeo,.repho,.selper,.suqian {
+	overflow: hidden
+}
+
+.errdeo,.header,.selradio,.suqian,.wobtn {
+	text-align: center
+}
+.errdeo {
+	white-space: nowrap;
+	position: fixed;
+	top: -85%;
+	left: 50%;
+	padding: 6px 16px;
+	color: #fff;
+	font-size: 14px;
+	background: #000;
+	opacity: .8;
+	border-radius: 2px;
+	-webkit-transform: translateX(-50%) translateY(0);
+	transform: translateX(-50%) translateY(0);
+	z-index: 9;
+	height: 30px
+}

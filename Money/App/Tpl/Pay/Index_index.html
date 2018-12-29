@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>订单支付系统</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+    <style type="text/css">
+        .btn00{
+            width: 200px;height: 40px;background: #7457ea;border: 1px solid #eee;border-radius: 15px;color: #fff}
+    </style>
+</head>
+<body>
+	<header class="bar bar-nav">
+	   <h1 class="title">
+         <span style="float: left;"><a href="{:U('Home/Order/bills')}"><img src="__PUBLIC__/home/imgs/callback.png" style="padding-top: 20%;padding-left: 10%"></a></span>
+         收银台
+        </h1>
+	</header>
+    <div class="content">
+		<!--订单信息-->
+		<div class="content-block-title">确认订单信息</div>
+		<div class="card">
+		    <div class="card-header">
+		    	单号:{$ordernum}
+		    	<span>￥{$money}.00元</span>
+		    </div>
+	        <div class="card-content">
+		        <div class="card-content-inner">
+		        	说明:还款请通过以下微信或支付宝还款，或联系客服还款
+		        </div>
+	    	</div>
+		</div>
+		<!--订单信息-->
+		
+		<!--支付方式-->
+		<div class="content-block-title">选择支付方式</div>
+		<div class="list-block inset">
+			<ul>
+				<li>
+					<a href="javascript:;" class="item-link list-button">
+						支付宝：{:C('cfg_zhifubao')}
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="item-link list-button">
+						微信：{:C('cfg_weixin')}
+					</a>
+				</li>
+			</ul>
+		</div>
+        <div class="content-block-title">收款二维码</div>
+        <div class="list-block inset">
+            <div style="text-align: center;"><img src="{$code['code']}" style="width:55%;"></div>
+        </div>
+		<!--支付方式-->
+        <!-- <?php if($info['p_status'] == 1): ?>
+        <div style="text-align: center;">
+            <input type="button" value="等待入账中" class="btn00" style="background-color: #BFBFBF">
+        </div>
+        <?php else: ?>
+        <div style="text-align: center;">
+            <input type="button" value="我已还款" class="btn00" onclick="ispay()">
+        </div>
+        <?php endif; ?> -->
+        <div style="text-align: center;">
+            <input type="button" value="我已还款" class="btn00" onclick="ispay()">
+        </div>
+        <div style="text-align: center;">
+            <input type="button" value="暂不还款" class="btn00" onclick="nopay()">
+        </div>
+	<div>
+
+	</div>
+    </div>
+
+    
+    
+	<div id="loadDiv" style="display: none;">
+		<div class="modal-overlay modal-overlay-visible"></div>
+		<div class="modal  modal-no-buttons modal-in" style="display: block;top: 40%;">
+			<div class="modal-inner">
+				<div class="modal-title">加载中</div>
+				<div class="modal-text">
+					<div class="preloader"></div>
+				</div>
+			</div>
+			<div class="modal-buttons "></div>
+		</div>
+	</div>
+    <div class="modal toast modal-in" id="msgDiv" style="display: none; left: 70%; top: 50%;"></div>
+	<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    	var ispost = 0;
+    	$(function(){
+    		
+    		
+    	});
+    	function showMsg(msg){
+    		$("#msgDiv").html(msg);
+    		$("#msgDiv").show();
+    		setTimeout(function(){
+    			$("#msgDiv").hide();
+    		},2000);
+    	}
+    	function beginPay(msg){
+    		ispost = 1;
+    		$(".modal-title").html(msg);
+		    $("#loadDiv").show();
+    	}
+    	function endPay(){
+    		ispost = 0;
+    		$("#loadDiv").hide();
+    	}
+    	function pay(pay_channel){
+    		if(ispost == 1){
+    			showMsg("页面正在加载,请稍后...");
+    		}else{
+    			beginPay("正在请求支付");
+    			$.post(
+    				"{:U('Pay/Index/geturl')}",
+    				{
+    					channel:pay_channel,
+    					ordernum:"{$ordernum}"
+    				},
+    				function(data,state){
+    					if(state != "success"){
+    						endPay();
+    						showMsg("请求出错!");
+    					}else if(data.status == 1){
+    						console.log('success');
+    						setTimeout(function(){
+    							endPay();
+    							window.location.href = data.url;
+    						},1000);
+    					}else{
+    						endPay();
+    						showMsg(data.msg);
+    					}
+    				}
+    			);
+    		}
+    	}
+
+        function ispay(){
+            $.post(
+                "{:U('Index/ispay')}",
+                {
+                    ordernum:"{$ordernum}",
+                },
+                function($data){
+                    if($data.status == 1){
+                        // showMsg("等待入账中");
+                        // $('.btn00').val('等待入账中');
+                        // $('.btn00').attr('onclick','');
+                        // $('.btn00').css('background-color','#BFBFBF');
+                        window.location.href = "{:U('Home/Order/bills')}";
+                    }else{
+                        showMsg("请重新进入该页面");
+                    }
+                }
+            );
+        }
+
+        function nopay(){
+            window.location.href = "{:U('Home/Order/bills')}";
+        }
+    </script>
+</body>
+</html>

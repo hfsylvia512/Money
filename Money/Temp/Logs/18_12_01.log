@@ -1,0 +1,2756 @@
+[ 2018-12-01T00:26:02+08:00 ] 218.23.56.66 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.187500s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.187500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T00:26:14+08:00 ] 218.23.56.66 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T00:26:20+08:00 ] 218.23.56.66 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T00:26:22+08:00 ] 218.23.56.66 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T00:26:25+08:00 ] 218.23.56.66 /index.php?m=Help&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `cat` ORDER BY sort Desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `article` WHERE ( `cid` = 1 ) ORDER BY sort Desc LIMIT 3   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服QQ' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服页咨询说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T00:26:32+08:00 ] 218.23.56.66 /index.php?m=List&a=index&id=1&aid=17
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cat` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `article` WHERE ( `cid` = 1 ) ORDER BY sort Desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:06:37+08:00 ] 223.104.21.2 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.125000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:07:02+08:00 ] 223.104.21.2 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:07:08+08:00 ] 223.104.21.2 /index.php?m=User&a=signup
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:07:09+08:00 ] 223.104.21.2 /index.php?m=Common&a=verify&time=1543601184000
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+
+[ 2018-12-01T02:07:53+08:00 ] 223.104.21.2 /index.php?m=User&a=sendsmscode
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smscode` WHERE ( `phone` = '13690652552' ) AND ( `sendtime` > 1543593600 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smscode` WHERE ( `sendtime` > 1543601212 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `smscode` (`phone`,`code`,`sendtime`) VALUES ('13690652552','644689',1543601272) [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:15+08:00 ] 223.104.21.2 /index.php?m=User&a=signup
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `smscode` WHERE ( `phone` = '13690652552' ) ORDER BY sendtime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`addtime`) VALUES ('13690652552','feb5609ab910ff282d70ca9bcfb30cbc6628b7ed',1543601295) [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:17+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.140625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:19+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:08:20+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.171875s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.171875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:08:21+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:24+08:00 ] 223.104.21.2 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:29+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:08:31+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:32+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:34+08:00 ] 223.104.21.2 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:36+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:38+08:00 ] 223.104.21.2 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:40+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `userinfo` (`user`) VALUES ('13690652552') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:08:42+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:43+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:44+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:45+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:08:46+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:47+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:48+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:08:49+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:08:51+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:04+08:00 ] 223.104.21.2 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.109375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:08+08:00 ] 223.104.21.2 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:11+08:00 ] 223.104.21.2 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:30+08:00 ] 223.104.21.2 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( `phone` = '13690652552' ) AND ( `password` = 'feb5609ab910ff282d70ca9bcfb30cbc6628b7ed' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:31+08:00 ] 223.104.21.2 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:33+08:00 ] 223.104.21.2 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:36+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:37+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:09:38+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:09:39+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:40+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:41+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:42+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:45+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:46+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:47+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:48+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:49+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:50+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:51+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:52+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:53+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:55+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:56+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:57+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:58+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:09:59+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:10:00+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:13:07+08:00 ] 223.104.21.2 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `user` = '13690652552' ) AND ( `status` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `userinfo` SET `name`='黄世怀',`usercard`='441422199510214337',`cardphoto_1`='http://zled.9q1b.cn:80/Upload/image/20181201/20181201021223_11870.jpg',`cardphoto_2`='http://zled.9q1b.cn:80/Upload/image/20181201/20181201021232_93908.jpg',`cardphoto_3`='http://zled.9q1b.cn:80/Upload/image/20181201/20181201021304_84242.jpg' WHERE ( `user` = '13690652552' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015625s ]
+SQL: UPDATE `user` SET `truename`='黄世怀' WHERE ( `phone` = '13690652552' ) [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:13:09+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:13:11+08:00 ] 223.104.21.2 /index.php?m=Info&a=unitinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:13:13+08:00 ] 223.104.21.2 /index.php?m=Info&a=unitinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:13:14+08:00 ] 223.104.21.2 /index.php?m=Info&a=unitinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T02:13:28+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T02:13:29+08:00 ] 223.104.21.2 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T03:05:23+08:00 ] 59.57.201.183 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.156250s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.156250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T03:05:25+08:00 ] 59.57.201.183 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T03:05:29+08:00 ] 59.57.201.183 /index.php?m=Order&a=lists
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `user` = '15368224156' ) ORDER BY addtime Desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:48+08:00 ] 171.118.224.229 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:48+08:00 ] 171.118.224.229 /index.php?g=Admin&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:48+08:00 ] 117.156.56.5 /index.php?g=Admin&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:48+08:00 ] 1.80.68.150 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:49+08:00 ] 1.80.68.150 /index.php?g=Admin&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:50+08:00 ] 125.76.60.18 /index.php?m=Order&a=lists
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+
+[ 2018-12-01T07:02:50+08:00 ] 125.76.60.18 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:02:51+08:00 ] 1.202.76.205 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T10:19:58+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T10:20:02+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T10:20:12+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015625s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T11:31:03+08:00 ] 122.226.183.85 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.218750s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.218750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T11:34:39+08:00 ] 59.57.201.183 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T11:34:46+08:00 ] 59.57.201.183 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T11:34:49+08:00 ] 59.57.201.183 /index.php?m=Help&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `cat` ORDER BY sort Desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `article` WHERE ( `cid` = 1 ) ORDER BY sort Desc LIMIT 3   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服QQ' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服页咨询说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:47:38+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:47:41+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:47:42+08:00 ] 123.244.84.15 /index.php?g=Admin&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:57:25+08:00 ] 123.244.84.15 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.125000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:57:41+08:00 ] 123.244.84.15 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:57:56+08:00 ] 123.244.84.15 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:59:54+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:59:54+08:00 ] 123.244.84.15 /index.php?g=Admin&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:59:57+08:00 ] 123.244.84.15 /index.php?g=Admin&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: validate D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\IndexAction.class.php 第 20 行.
+SQL: SELECT * FROM `admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'f11ec7022bbe2bf69670d1a181646f0e' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_login` [ RunTime:0.015625s ]
+SQL: INSERT INTO `admin_login` (`username`,`logintime`,`loginip`) VALUES ('admin',1543640397,'123.244.84.15') [ RunTime:0.000000s ]
+SQL: UPDATE `admin` SET `lastlogin`=1543640397 WHERE ( `username` = 'admin' ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:59:59+08:00 ] 123.244.84.15 /index.php?g=Admin&m=Main&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_login` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `admin_login` WHERE ( `username` = 'admin' ) ORDER BY logintime Desc LIMIT 4   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T13:00:04+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T13:00:09+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:16:12+08:00 ] 59.57.201.183 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.125000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:16:14+08:00 ] 59.57.201.183 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:16:17+08:00 ] 59.57.201.183 /index.php?m=Help&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `cat` ORDER BY sort Desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `article` WHERE ( `cid` = 1 ) ORDER BY sort Desc LIMIT 3   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服QQ' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服页咨询说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:05:46+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:05:50+08:00 ] 123.244.84.15 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:55:05+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.*,b.userid FROM `order` a left join user b on a.user = b.phone ORDER BY a.addtime Desc LIMIT 0,25   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:55:07+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T16:55:15+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:55:35+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.*,b.userid FROM `order` a left join user b on a.user = b.phone ORDER BY a.addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:12+08:00 ] 59.57.201.183 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:14+08:00 ] 59.57.201.183 /index.php?m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: money D:\wwwroot\zled.9q1b.cn\Temp\Cache\Home\215b2570023d7547904110339157d78e.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:16+08:00 ] 59.57.201.183 /index.php?m=Help&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `cat` ORDER BY sort Desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `article` WHERE ( `cid` = 1 ) ORDER BY sort Desc LIMIT 3   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服QQ' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服电话' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '客服页咨询说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:18+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:19+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:21+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.*,b.userid FROM `order` a left join user b on a.user = b.phone ORDER BY a.addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:22+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:25+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:58:31+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:02:11+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:07:26+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:07:53+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.*,b.userid FROM `order` a left join user b on a.user = b.phone ORDER BY a.addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:08:25+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:03+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.*,b.userid FROM `order` a left join user b on a.user = b.phone ORDER BY a.addtime Desc LIMIT 0,25   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:09+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Bills&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bills` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bills` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bills` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:13+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:16+08:00 ] 140.237.169.11 /index.php?g=Admin&m=Daikuan&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.*,b.userid FROM `order` a left join user b on a.user = b.phone ORDER BY a.addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:19+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` ORDER BY addtime Desc LIMIT 0,25   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:23+08:00 ] 140.237.169.11 /index.php?g=Admin&m=User&a=userinfo&user=13690652552
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `invitation` FROM `user` WHERE ( `phone` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `otherinfo` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `otherinfo` WHERE ( `user` = '13690652552' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Admin\UserAction.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `userphone` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userphone` WHERE ( `user` = '13690652552' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: score D:\wwwroot\zled.9q1b.cn\Temp\Cache\Admin\c0a2a89196ad08763ace31a7d4bea389.php 第 462 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:19:49+08:00 ] 113.246.107.190 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:27:27+08:00 ] 113.246.107.190 /index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:27:47+08:00 ] 113.246.107.190 /index.php?m=User&a=signup
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:27:48+08:00 ] 113.246.107.190 /index.php?m=Common&a=verify&time=1543656421000
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+
+[ 2018-12-01T17:37:25+08:00 ] 113.246.107.190 /index.php?m=User&a=sendsmscode
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( `phone` = '18570387994' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smscode` WHERE ( `phone` = '18570387994' ) AND ( `sendtime` > 1543593600 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smscode` WHERE ( `sendtime` > 1543656984 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `smscode` (`phone`,`code`,`sendtime`) VALUES ('18570387994','865736',1543657044) [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:37:54+08:00 ] 113.246.107.190 /index.php?m=User&a=signup
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( `phone` = '18570387994' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `smscode` WHERE ( `phone` = '18570387994' ) ORDER BY sendtime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`addtime`) VALUES ('18570387994','10470c3b4b1fed12c3baac014be15fac67c6e815',1543657074) [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:37:55+08:00 ] 113.246.107.190 /index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+NOTIC: [8] Undefined index: params D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '首页底部公司名' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议1地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议3地址' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '协议2地址' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.171875s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.171875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:38:05+08:00 ] 113.246.107.190 /index.php?m=Order&a=checkorder
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `user` = '18570387994' ) ORDER BY addtime Desc LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `user` = '18570387994' ) AND ( `status` <> 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `user` = '18570387994' ) AND ( `status` = 2 ) ORDER BY addtime Desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:38:07+08:00 ] 113.246.107.190 /index.php?m=Order&a=daikuan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\CommonAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '18570387994' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:38:08+08:00 ] 113.246.107.190 /index.php?m=Info&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '18570387994' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `userinfo` (`user`) VALUES ('18570387994') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '18570387994' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: taobao_name D:\wwwroot\zled.9q1b.cn\App\Lib\Action\Home\InfoAction.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `block` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '必要资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `block` WHERE ( `name` = '补充资料说明' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T17:38:13+08:00 ] 113.246.107.190 /index.php?m=Info&a=baseinfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `userinfo` WHERE ( `user` = '18570387994' ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

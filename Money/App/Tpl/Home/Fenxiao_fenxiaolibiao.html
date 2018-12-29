@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> <Somnus:sitecfg name="sitetitle"/> </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="description" content=" <Somnus:sitecfg name="sitedescription"/> ">
+<meta name="Keywords" content=" <Somnus:sitecfg name="sitekeywords"/> ">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/mui.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/feiqi-ee5401a8e6.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/newpay-bb7fcb5546.css">
+<style>
+.dant a {
+    font-size: 13px;
+    display: inline-block;
+}
+.posfix{
+	position: fixed;
+	bottom: 0;
+}
+.jumpdown{
+	width: 100%;
+}
+.jumpdown img{
+	padding-top: 10px;
+	width: 100%;
+}
+.orange{
+	color: #fb6f00!important;
+}
+</style>
+</head>
+<body>
+    <!-- header -->
+    <header class="mui-bar mui-bar-nav hnav">
+		<a href="{:U('Fenxiao/index')}" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">团队列表</h1>
+	</header>
+	<!-- header end-->
+<div class="mui-content">
+	<empty name="data">
+		<div class="xinf">
+			<div class="mydiv">
+				<img src="__PUBLIC__/home/imgs/p_01.png" alt="">
+			</div>
+		</div>
+		<div class="atxt">
+			
+			您还没有任何受邀请人
+		</div>
+		
+	<else />
+		<foreach name="data" item="vo">
+		<article class="mt10 jiekuan">
+			<div class="cf dant">
+				<a>
+				受邀人手机号码：{$vo.phone}
+				</a>
+				<a class="fr f13 danstate datalose" >
+					<php>
+						if($vo['jisuan_ticheng'] == 0)echo "未计算提成";
+						if($vo['jisuan_ticheng'] == 1)echo "已经计算提成";
+					;
+					</php>
+					<span class="fr rightarr"></span>
+				</a>
+			</div>
+			<a class="hlist cf phlist" >
+				
+				<div class="f14">
+					<p class="grey"><span class="fc9">计算提成金额</span>：¥{$vo.ticheng_sum}</p>
+					
+				</div>
+			</a>
+           
+		</article>
+		</foreach>
+	</empty>
+</div>
+<script src="__PUBLIC__/home/js/jquery-1-fe84a54bc0.11.1.min.js"></script>	
+<script>
+$('.bottom-bar a').click(function(){
+	$('.bottom-bar a').removeClass('cur');
+	$('.bottom-bar a span').removeClass('cur');
+	$(this).addClass('cur');
+	$(this).find('span').eq(0).addClass('cur');
+});
+function toorder(){
+	window.location.href = "{:U('Index/index')}";
+}
+</script>
+<div style="display: none;">
+	<Somnus:sitecfg name="sitecode"/>
+</div>
+</body>
+</html>

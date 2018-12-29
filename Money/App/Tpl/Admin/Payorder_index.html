@@ -1,0 +1,175 @@
+<h3>
+    {$title}
+</h3>
+<div class="filter">
+    <form action="{:U(GROUP_NAME.'/Payorder/index')}" method="post">
+        <input name="keyword" type="text" class="inpMain" value="{$keyword}" size="20" />
+        <input name="submit" class="btnGray" type="submit" value="筛选" />
+    </form>
+</div>
+<button type="button" class="btn mui-btn mui-btn-danger mui-button-pay mui-button-gry" onClick="datadel();" style="background-color: red;margin-bottom: 5px">批量删除</button>
+<div id="list">
+        <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+            <tr>
+                <th width="40"><input type="checkbox" id="checkbox" name="" value="" onClick="allcheck()"></th>
+                <th width="50" align="center">ID</th>
+                <th width="150" align="center">订单号</th>
+                <th width="100" align="center">用户名</th>
+                <th width="80">支付类型</th>
+                <th width="80">金额</th>
+                <th width="150" align="center">创建日期</th>
+                <th width="80">状态</th>
+                <th align="center">操作</th>
+            </tr>
+            <volist name="list" id="vo">
+                <tr>
+                    <td align="center"><input type="checkbox" value="{$vo.id}" name="checkbox"></td>
+                    <td align="center">{$vo.id}</td>
+                    <td align="center">{$vo.ordernum}</td>
+                    <td align="center">{$vo.user}</td>
+					<td align="center">{$vo.type}</td>
+					<td align="center">{$vo.money}</td>
+                    <td align="center">{$vo.addtime|date='Y-m-d',###}</td>
+                    <td align="center">
+                    	<php>
+                    		if($vo['status']){
+                    			echo "已支付";
+                    		}else{
+                    			echo "未支付";
+                    		}
+                    	</php>
+                    </td>
+                    <td align="center">
+                        <if condition="($vo.type eq '还款费') AND ($vo.status eq 0)">
+                        <a href="javascript:changestatus('{$vo.ordernum}','{$vo.id}');">修改订单状态</a> |
+                        </if>
+                        <a href="javascript:del('{$vo.ordernum}','{:U(GROUP_NAME.'/Payorder/del',array('id'=>$vo['id']))}');">删除订单</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+</div>
+<div style="display: none;" id="changestatus_div">
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+        <tr>
+            <td width="100" align="right">订单号</td>
+            <td>
+                <span id="changestatus_span"></span>
+                <input type="hidden" id="orderid" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right">状态</td>
+            <td>
+                <!-- <label>
+                    <input type="radio" name="status" value="0"  >
+                    未支付
+                </label> -->
+                <label>
+                    <input type="radio" name="status" value="1"  >
+                    已支付
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" onclick="savestatus();" class="btn" value="提交" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="clear"></div>
+<div class="pager">
+    {$page}
+</div>
+</div>
+<script>
+
+    function changestatus(ordernum,oid){
+        $("#changestatus_span").html(ordernum);
+        $("#orderid").val(oid);
+        layer.open({
+            type: 1,
+            skin: 'layui-layer-rim', //加上边框
+            area: ['420px', '165px'], //宽高
+            content: $("#changestatus_div").html()
+        });
+    }
+    function savestatus(){
+        var id = $("#orderid").val();
+        var status = $('input:radio[name="status"]:checked').val();
+        if(status != 'undefined' && status != '' && status != null){
+            $.post(
+                "{:U('Payorder/status')}",
+                {id:id,status:status},
+                function(data){
+                    if(data.status == 0){
+                        layer.msg(data.errmsg);
+                    }else{
+                        layer.msg(data.errmsg);
+                        setTimeout(function(){
+                            window.location.href = window.location.href;
+                        },2000);
+                    }
+                }
+            );
+        }else{
+            layer.msg("请选择订单状态!");
+        }
+    }
+
+    function del(num,jumpurl){
+        layer.confirm(
+                '确定要删除订单:'+num+'吗?',
+                function (){
+                    window.location.href = jumpurl;
+                }
+        );
+    }
+
+
+     function allcheck(){
+        if($('#checkbox').is(":checked")){
+            $('input[name="checkbox"]').prop('checked','checked');
+        }else{
+            $('input[name="checkbox"]').prop('checked',false);
+        }
+    }
+
+function datadel(){
+    layer.confirm('确认要删除这些订单吗？',function(index){
+        var ids = '';
+        $("input[name='checkbox']").each(function(){
+            //console.log($(this).is(':checked'));
+            if($(this).is(':checked')){
+                var id = $(this).val();
+                if(id != 1){
+                    ids = ids+','+id;
+                }
+            }
+        });
+        ids = ids.substr(1);
+        console.log(ids);
+        $.ajax({
+            type: 'POST',
+            url: "{:U('Payorder/delAll')}",
+            data:{ids:ids},
+            dataType: 'json',
+            success: function(data){
+                console.log(data);
+                if(data.code == 1){
+                    layer.msg(data.msg,{icon:1,time:1000});
+                    window.setTimeout('location.reload()',1000); 
+                }else{
+                    layer.msg(data.msg,{icon:5,time:1000});
+                }
+            },
+            error:function(data) {
+                console.log(data);
+                layer.close(index);
+            },
+        }); 
+    });
+}
+</script>

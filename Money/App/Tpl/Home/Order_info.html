@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> <Somnus:sitecfg name="sitetitle"/> </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="description" content=" <Somnus:sitecfg name="sitedescription"/> ">
+<meta name="Keywords" content=" <Somnus:sitecfg name="sitekeywords"/> ">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/mui.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/feiqi-ee5401a8e6.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/newpay-bb7fcb5546.css">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/newindex-09d04b32f3.css"/>
+</head>
+<body>
+    <!-- header -->
+    <header class="mui-bar mui-bar-nav hnav">
+		<a href="{:U('Order/lists')}" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">借款详情</h1>
+	</header>
+	<!-- header end-->
+<div class="mui-content">
+	<article class="jiekuan">
+		<div class="oktit">
+			借款进度
+		</div>
+				<div class="cf okdan">
+			<div class="kprogress">
+				<span class="f14 red">
+					<php>
+						if($data['status'] == 2){
+							echo "交易成功";
+						}elseif($data['status'] == -1){
+							echo "交易失败";
+						}
+					</php>
+				</span>
+				<span class="fr fc9 f26"><span class="f18">借款审批¥</span>{$data.money}.00元</span>
+			</div>
+			<div class="prgbar">
+					<div class="prg1">
+						<div>
+							<php>
+								if($data['status'] == 1){
+									echo '<span class="procir3"></span>';
+								}elseif($data['status'] == 0){
+									echo '<span class="procir2"></span>';
+								}elseif($data['status'] == -1){
+									echo '<span class="procir4"></span>';
+								}else{
+									echo '<span class="procir3"></span>';
+								}
+							</php>
+						</div>
+						<div class="mt4">
+							<p>
+								<php>
+									if($data['status'] == 1 || $data['status'] == 2 || $data['status'] == 3 || $data['status'] == 4 || $data['status'] == 5 || $data['status'] == 6 || $data['status'] == 7 || $data['status'] == 8 || $data['status'] == 9){
+										echo "审核通过";
+									}elseif($data['status'] == 0){
+										echo "正在审核";
+									}else{
+										echo "审核未通过";
+									}
+								</php>
+							</p>
+							<p class="f12"></p>
+						</div>
+					</div>
+					<div class="prg2">
+						<div>
+							<php>
+								if($data['status'] == 1){
+									echo '<span class="procir2"></span>';
+								}elseif($data['status'] == -1){
+									echo '<span class="procir4"></span>';
+								}elseif($data['status'] == 2 || $data['status'] == 3 || $data['status'] == 4 || $data['status'] == 5 || $data['status'] == 6 || $data['status'] == 7 || $data['status'] == 8 || $data['status'] == 9){
+									echo '<span class="procir3"></span>';
+								}else{
+									echo '<span class="procir1"></span>';
+								}
+							</php>
+						</div>
+						<div class="mt4">
+							<p>
+								<php>
+									if($data['status'] == 1){
+										echo "等待提现";
+									}elseif($data['status'] == -1){
+										echo "提现失败";
+									}elseif($data['status'] == 2 || $data['status'] == 3 || $data['status'] == 4 || $data['status'] == 5 || $data['status'] == 6 || $data['status'] == 7 || $data['status'] == 8 || $data['status'] == 9){
+										echo "提现成功";
+									}else{
+										echo "等待提现";
+									}
+								</php>
+							</p>
+							<p class="f12"></p>
+						</div>
+					</div>
+					<div class="prg3">
+						<div>
+							<php>
+								if($data['status'] == 2){
+									echo '<span class="procir3"></span>';
+								}elseif($data['status'] == -1){
+									echo '<span class="procir4"></span>';
+								}elseif($data['status'] == 3 || $data['status'] == 4 || $data['status'] == 5 || $data['status'] == 6 || $data['status'] == 7 || $data['status'] == 8 || $data['status'] == 9){
+									echo '<span class="procir2"></span>';
+								}else{
+									echo '<span class="procir1"></span>';
+								}
+							</php>
+						</div>
+						<div class="mt4">
+							<p>
+								<php>
+								if($data['status'] == 2){
+									echo "到账成功";
+								}elseif($data['status'] == -1){
+									echo "到账成功"; 
+								}elseif($data['status'] == 3){
+									echo "已提现未出款";
+								}elseif($data['status'] == 4){
+									echo "贷款资金冻结";
+								}elseif($data['status'] == 5){
+									echo "订单退款";
+								}elseif($data['status'] == 6){
+									echo "收取保险费";
+								}elseif($data['status'] == 7){
+									echo "待激活用户";
+								}elseif($data['status'] == 8){
+									echo "预付首期费用";
+								}elseif($data['status'] == 9){
+									echo "VIP加急到账";
+								}else{
+									echo "到账成功";
+								}
+								</php>
+							</p>
+							<p class="f12"></p>
+						</div>
+					</div>
+			</div>
+         
+          <?php if($data['status'] == 4): ?>
+                  <div style="text-align:center; color:#f00; padding:5px;">你的贷款订单已冻结，请及时联系客服办理解冻业务!</div>
+          <?php endif; ?>
+                  
+		<?php if($data['message'] != ''): ?>
+		<div style="text-align:center; color:#f00; padding:5px;">{$data.message}</div>
+		<?php endif; ?>
+		</div>
+			</article>
+  
+  <?php if($data['status'] == 5): ?>
+	<article class="mt10 jiekuan">
+		<div class="cf okdan" style="padding: 0px">
+			<div class="oktable">
+				<div class="fc9 listit" style="width: 25%;float: left;">温馨提示</div>
+				<div style="width: 71%;float: right;">
+					<span style="color: red;">【您的贷款订单已经成功申请(资金退款)业务。受理成功。】</span><br>
+					<span style="color: #303030;">提示：</span>我司贷款平台(财务部退款规则)“资金将在7个工作日内退款到您的收款银行卡.上”,因为财务部工作量较大订单多。只能按照退款申请顺序统一安排。<br>
+					<span style="color: #303030;">注意: </span><span style="color: red;">(我司办理退款业务，是指:申请成功后，将不能取消退款业务。财务部工作员登记成功后，按顺序安排打款到你的银行卡上! )</span>
+				</div>
+				
+			</div>
+		</div>
+	</article>
+	<article class="mt10 jiekuan" style="padding: 0px;margin-top: 0px">
+		<div class="cf okdan" >
+			<div class="oktable">
+				<div class="fc9 listit" style="width: 100%">专属区域经理:正在忙碌中<br>(电话与微信号同步</div>
+			</div>
+		</div>
+	</article>
+<?php endif; ?>
+  
+  <?php if($data['status'] == 6): ?>
+	<article class="mt10 jiekuan">
+		<div class="cf okdan" style="padding: 0px">
+			<div class="oktable">
+				<div class="fc9 listit" style="width: 25%;float: left;">温馨提示</div>
+				<div style="width: 71%;float: right;">
+					<span style="color: red;">【您的账户未缴纳【保险费】业务 ，暂时无法出款到账..】</span><br>
+					贷款平台/系统检测您的征信综合评分<span style="color: red;">低风险</span>。<br>
+					<span style="color: #303030;">温馨提示：</span>根据国家政策规定变动，针对小额贷款平台条例如下：<br>
+					借款人申请贷款，需要办理银行和贷款平台公司，按揭分期贷款还要交纳【保险费用】<br><br>
+				</div>
+				
+			</div>
+		</div>
+	</article>
+	<article class="mt10 jiekuan" style="padding: 0px;margin-top: 0px">
+		<div class="cf okdan" >
+			<div class="oktable">
+				<div class="fc9 listit" style="color: red;width: 100%">【预付 保险费 成功后，可向财务部申请优先安排放款20分钟内到账！】</div>
+			</div>
+		</div>
+	</article>
+<?php endif; ?>
+	<article class="mt10 jiekuan">
+		<div class="oktit">
+			借款详情
+		</div>
+		<div class="cf okdan">
+			<div class="oktable">
+				<span class="fc9 listit">订单编号</span>
+				<span>{$data.ordernum}</span>
+			</div>
+			<div class="oktable">
+				<span class="fc9 listit">借款金额</span>
+				<span>￥{$data.money}.00元</span>
+			</div>
+			<div class="oktable">
+				<span class="fc9 listit">借款期限</span>
+				<span>{$data.months}月</span>
+			</div>
+			<div class="oktable">
+				<span class="fc9 listit">到账银行</span>
+				<span>{$data.bank}</span>
+			</div>
+			<!--<div class="oktable">
+				<span class="fc9 listit">收款账号</span>
+				<span>{$data.banknum}</span>
+			</div>-->
+			<div class="oktable">
+				<span class="fc9 listit">每月还款</span>
+				<span>¥{$data.monthmoney}.00元</span>
+			</div>
+			<div class="oktable">
+				<span class="fc9 fl listit">还款说明</span>
+				<span class="fl deinfo">您需要在每月{:C('cfg_huankuanri')}日前或者当天 ，进入我的还款列表，进行还款</span>
+			</div>
+
+		</div>
+	</article>
+	<?php if($data['status'] == 1): ?>
+	<div class="mui-content">
+		<form id="back-form" onSubmit="return false">
+			<div class="mui-input-group regfrm">
+				<div class="mui-input-row pr">
+					<label>提现密码</label>
+					<input id="txpassword" name="txpassword" type="password" class="mui-input-clear mui-input" placeholder="请输入提现密码" data-input-clear="3">
+					<span class="mui-icon mui-icon-clear mui-hidden"></span>
+					<i class="seltarr password_icon_off pab" id='switch'></i>
+				</div>
+			</div>
+			<article class="msub"><input class="submit" onClick="tixian()" type="submit" value="确认提现" ></article>
+	<!-- 提示 -->
+			<div style="display: none;top: 45%;" class="errdeo" id="messageBox"></div>
+		</form>
+	</div>
+<?php endif; ?>
+<!--<div class="mui-content" >
+<article class="msub" style="padding:5px 15px"><input class="submit" onClick="topay()" type="submit" value="在线支付" ></article>
+</div>-->
+
+
+
+	<div class="deowin2" style="display:none;" id="deowin31">
+		<div class="deocon2">
+			<div class="divpad2" style="text-align:center;height:110px;background-color: #F0F0F0">
+				<p class='tex' style="color: #4c4c4c;line-height: 30px;font-size:16px;"></p>
+			</div>
+			<div class="wobtn"><!-- 一个按钮用这个结构 -->
+				<a id="winbtn3" href="javascript:;">确定</a>
+			</div>
+		</div>
+	</div>
+	<div class="emask" id="mask3" style="display: none;"></div>
+
+<div class="deowin2" style="display:none;text-align: center; position: absolute; top:25%;left: 4.9%;width: 90%;padding: 0;" id="deowin32">
+        <div class="deocon2">
+            <div class="divpad2" style="text-align:center;height:80%;font-size: 16px">
+               <!--<div>请联系出借人员</div>-->
+               <div><img src="/Upload/code/11.jpg" style="width:100%;"></div>
+            </div>
+            <div class="wobtn" style="display: none;">
+                <!-- 一个按钮用这个结构 -->
+                    <a id="winbtn3" href="javascript:;">确定</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div style="display: none;">
+	<Somnus:sitecfg name="sitecode"/>
+</div>
+</body>
+<script src="/Public/home/js/jquery-1-fe84a54bc0.11.1.min.js"></script>
+<script type="text/javascript">
+	function tixian(){
+		var tixian = $('#txpassword').val();
+		if(tixian == ""){
+			alert("请输入提现密码！");
+			return false;
+		}
+		$.post(
+			"{:U('Order/tixian')}",
+			{
+				txpassword:$('#txpassword').val(),
+				ordernum:"{:$data['ordernum']}",
+			},
+			function (data,state,news){
+				if(state != "success"){
+					$(".tex").html('请求数据失败,请重试!');
+					$("#deowin31").show();
+					$('#mask3').show();
+				}else if(data.status != 1){
+					// $(".tex").html(data.msg);
+					// $("#deowin31").show();
+					// $('#mask3').show();
+					alert(data.msg);
+				}else{
+					alert("提现申请成功，提现资金将于24小时内转到您绑定的银行卡！");
+					window.location.href = "{:U('Order/lists')}";
+					
+					// $(".tex").html(data.msg);
+					// $("#deowin31").show();
+					// $('#mask3').show();
+					
+				}
+			}
+		);
+	}
+	$("#winbtn3").click(function(){
+		$("#deowin31").hide();
+		$("#deowin32").hide();
+		$('#mask3').hide();
+	});
+	// $(function(){
+ //        var news_status = {:$data['news']};
+ //        var status1 = {:$data['status']};
+ //        var msg = "{:$data['message']}";
+ //        console.log(msg);
+ //        if(news_status == 1 && status1 == 1){
+ //        	alert(msg);
+ //   //      	$(".tex").html(msg);
+	// 		// $("#deowin31").show();
+	// 		// $('#mask3').show();
+ //        }
+ //    })
+
+ function topay(){
+	$(".tex").html('请求数据失败,请重试!');
+					$("#deowin32").show();
+					$('#mask3').show();
+
+}
+
+	$(function(){
+		$('#mask3').click(function(){
+                $('#deowin32').hide();
+                $('#mask3').hide();
+                // $("#winbtn3").click();
+           });
+	})
+</script>
+
+
+</html>

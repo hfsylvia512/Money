@@ -1,0 +1,376 @@
+<h3>
+    {$title}
+</h3>
+<div class="filter">
+    <form action="{:U(GROUP_NAME.'/Daikuan/index')}" method="post">
+        <input name="keyword" type="text" placeholder="用户名" class="inpMain" value="{$keyword}" size="20" />
+        <input name="submit" class="btnGray" type="submit" value="筛选" />
+    </form>
+</div>
+<button type="button" class="btn mui-btn mui-btn-danger mui-button-pay mui-button-gry" onClick="datadel();" style="background-color: red;margin-bottom: 5px">批量删除</button>
+<div id="list">
+        <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+            <tr>
+                <th width="40"><input type="checkbox" id="checkbox" name="" value="" onClick="allcheck()"></th>
+                <th width="30" align="center">ID</th>
+                <th width="30" align="center">推荐人ID</th>
+                <th width="100" align="center">订单号</th>
+                <th width="60" align="center">用户名</th>
+                <th width="60" align="center">姓名</th>
+                <th width="60">借款金额</th>
+                <th width="40">借款期限</th>
+                <th width="90" align="center">创建日期</th>
+                <th width="60">提现密码</th>
+                <th width="60">状态</th>
+                <th width="50">结清状态</th>
+                <th width="50">状态描述</th>
+                <th align="center">操作</th>
+            </tr>
+            <volist name="list" id="vo">
+                <tr>
+                    <td align="center"><input type="checkbox" value="{$vo.id}" name="checkbox"></td>
+                    <td align="center">{$vo.id}</td>
+                    <td align="center">{$vo.userid}</td>
+                    <td align="center">{$vo.ordernum}</td>
+                    <td align="center">{$vo.user}</td>
+                    <td align="center">{$vo.name}</td>
+					<td align="center">{$vo.money}元</td>
+					<td align="center">{$vo.months}月</td>
+                    <td align="center">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
+                    <td align="center">{$vo.tixian}</td>
+                    <td align="center">
+						<php>
+							if($vo['status'] == 0)echo "正在审核";
+							if($vo['status'] == 1)echo "审核通过";
+							if($vo['status'] == 2)echo "提现成功";
+							if($vo['status'] == '-1')echo "审核未通过";
+                            if($vo['status'] == 3)echo "已提现未出款";
+                            if($vo['status'] == 4)echo "贷款资金冻结";
+							if($vo['status'] == 5)echo "订单退款";
+                            if($vo['status'] == 6)echo "收取保险费";
+                          	if($vo['status'] == 7)echo "待激活用户";
+                          	if($vo['status'] == 8)echo "预付首期费用";
+                          	if($vo['status'] == 9)echo "VIP加急到账";
+						</php>
+                    </td>
+                    <td align="center">
+                        <?php if($vo['months'] == $vo['donemonth']): ?>
+                            <span style="color: red">已结清</span>
+                        <?php else:?>
+                            未结清
+                        <?php endif; ?>
+                    </td>
+                    <td align="center">{$vo.message}</td>
+                    <td align="center">
+                        <!-- <a href="javascript:changenews('{$vo.ordernum}','{$vo.id}');">消息框控制</a> | -->
+                    	<a href="javascript:changestatus('{$vo.ordernum}','{$vo.id}','{$vo.money}','{$vo.months}','{$vo.name}');">修改订单状态</a> |
+                    	<a href="javascript:showbank('{$vo.bank}','{$vo.banknum}');">查看打款信息</a> |
+                        <a href="{:U(GROUP_NAME.'/User/userinfo',array('user' => $vo['user']))}">查看资料</a> |
+                        <a href="javascript:del('{$vo.ordernum}','{:U(GROUP_NAME.'/Daikuan/del',array('id'=>$vo['id']))}');">删除订单</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+</div>
+<div class="clear"></div>
+<div class="pager">
+    {$page}
+</div>
+</div>
+<script>
+    function changenews(ordernum,oid){
+        $("#changestatus_span1").html(ordernum);
+        $("#orderid1").val(oid);
+        layer.open({
+            type: 1,
+            skin: 'layui-layer-rim', //加上边框
+            area: ['400px', '210px'], //宽高
+            content: $("#changestatus_div1").html()
+        });
+    }
+
+    function del(num,jumpurl){
+        layer.confirm(
+                '确定要删除借款订单:'+num+'吗?',
+                function (){
+                    window.location.href = jumpurl;
+                }
+        );
+    }
+    function showbank(bankname,banknum){
+  		layer.alert(
+  			'打款银行:' + bankname + "<br>" + '银行卡号:' + banknum,
+  			{
+	    		skin: 'layui-layer-lan',
+	    		closeBtn: 0,
+	    		anim: 4
+  			}
+  		);
+    }
+    function changestatus(ordernum,oid,money,month,name){
+    	$("#changestatus_span").html(ordernum);
+    	$("#orderid").val(oid);
+        $('#money').attr('value',money);
+        $('#month').attr('value',month);
+        $('#textarea').html("恭喜"+name+"先生/女士，你审核通过"+money+"元信用额度，请联系你的信贷员索要提现密码进行提现。");
+		layer.open({
+		  	type: 1,
+		  	skin: 'layui-layer-rim', //加上边框
+		  	area: ['550px', '320px'], //宽高
+		  	content: $("#changestatus_div").html()
+		});
+    }
+    
+    
+</script>
+<div style="display: none;" id="changestatus_div">
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+        <tr>
+            <td width="100" align="right">订单号</td>
+            <td>
+                <span id="changestatus_span"></span>
+                <input type="hidden" id="orderid" value=""  />
+            </td>
+        </tr>
+        <tr >
+            <td width="100" align="right">借款金额</td>
+            <td><input type="text" name="money" id="money" value="" size="5" />元</td>
+        </tr>
+         <tr>
+            <td width="100" align="right">借款期限</td>
+            <td><input type="text" name="month" id="month" value="" size="5" />个月</td>
+        </tr>
+        <tr>
+            <td align="right">状态</td>
+            <td>
+              	<label>
+                    <input type="radio" name="status" value="-1" onclick="changestatus1(0)" >
+					审核未通过
+                </label>
+                <label>
+                    <input type="radio" name="status" value="0" onclick="changestatus1(0)" >
+					正在审核
+                </label>
+                <label>
+                    <input type="radio" name="status" value="1" onclick="changestatus1(1)" >
+					审核通过
+                </label>
+                <label>
+                    <input type="radio" name="status" value="3" onclick="changestatus1(0)" >
+                    已提现未出款
+                </label>
+                <label>
+                    <input type="radio" name="status" value="2" onclick="changestatus1(0)" >
+					提现成功
+                </label>
+              	<label>
+                    <input type="radio" name="status" value="7" onclick="changestatus1(0)" >
+					待激活用户
+                </label>
+                <label>
+                    <input type="radio" name="status" value="4" onclick="changestatus1(0)" >
+                    贷款资金冻结
+                </label>
+				<label>
+                    <input type="radio" name="status" value="6" onclick="changestatus1(0)" >
+                    收取保险费
+                </label>
+              	<label>
+                    <input type="radio" name="status" value="8" onclick="changestatus1(0)" >
+                    预付首期费用
+                </label>
+              	<label>
+                    <input type="radio" name="status" value="9" onclick="changestatus1(0)" >
+                    VIP加急到账
+                </label>
+              	<label>
+                    <input type="radio" name="status" value="5" onclick="changestatus1(0)" >
+                    订单退款
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td width="100" align="right">状态描述</td>
+            <td><input type="text" size="50"  name="txt" class="txt"  value="" /></td>
+        </tr>
+        <tr id="txpasswww" >
+            <td width="100" align="right">提现密码</td>
+            <td><input type="text" name="tixian" class="tixian"  value="" />（不修改留空）</td>
+            
+        </tr>
+        <!-- <tr id="txpasswww" >
+            <td width="100" align="right">通知短信</td>
+            <td>
+                <textarea name="content" cols="50" rows="5" id="textarea"></textarea>
+            </td>
+        </tr> -->
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" onclick="savestatus(this);" class="btn" value="提交" />
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div style="display: none;" id="changestatus_div1">
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+        <tr>
+            <td width="100" align="right">订单号</td>
+            <td>
+                <span id="changestatus_span1"></span>
+                <input type="hidden" id="orderid1" value="" />
+            </td>
+        </tr>
+        <tr id="texttt" >
+            <td width="100" align="right">消息框内容</td>
+            <td><input type="text" size="20" name="txt" class="txt"  value="{$vo.message}" /></td>
+        </tr>
+        <tr>
+            <td align="right">状态</td>
+            <td>
+                <label>
+                    <input type="radio" name="news" value="1"  >
+                    显示
+                </label>
+                <label>
+                    <input type="radio" name="news" value="0"  >
+                    隐藏
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" onclick="savenews(this);" class="btn" value="提交" />
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+    
+
+    function changestatus1(code){
+        code = parseInt(code);
+        if(code == 1){
+            // $('tr#txpasswww').css('display', 'block');
+            $('tr#txpasswww').show();
+            // $(".layui-layer").height(400);
+            // $(".layui-layer-content").height(400);
+            $(".layui-layer").height(350);
+            $(".layui-layer-content").height(350);
+        }else{
+            // $('tr#txpasswww').css('display', 'none');
+            $('tr#txpasswww').hide();
+            $(".layui-layer").height(320);
+            $(".layui-layer-content").height(320);
+        }
+    }
+    $(function(){
+        $('tr#txpasswww').hide();
+    })
+
+    function savestatus(obj){
+      
+        var id = $("#orderid").val();
+        var status = $('input:radio[name="status"]:checked').val();
+        var tixian = $(obj).parents('table').find('input[name="tixian"]').val();
+
+        var money = $(obj).parents('table').find('input[name="money"]').val();
+        var month = $(obj).parents('table').find('input[name="month"]').val();
+        // var textarea = $(obj).parents('table').find('textarea[name="content"]').html();
+        //console.log(textarea);
+        var message = $(obj).parents('table').find('input[name="txt"]').val();
+        if(status != 'undefined' && status != '' && status != null){
+            $.post(
+                "{:U(GROUP_NAME.'/Daikuan/changestatus')}",
+                {id:id,status:status,tixian:tixian,money:money,month:month,message:message},
+                function(data,state){
+                    if(state != "success"){
+                        layer.msg("请求数据失败!");
+                    }else if(data.status == 1){
+                        layer.msg("保存成功!");
+                        setTimeout(function(){
+                            window.location.href = window.location.href;
+                        },2000);
+                    }else{
+                        layer.msg(data.msg);
+                    }
+                }
+            );
+        }else{
+            layer.msg("请选择订单状态!");
+        }
+    }
+    function savenews(obj){
+        var id = $("#orderid1").val();
+        var status = $('input:radio[name="news"]:checked').val();
+        var xiaoxi = $(obj).parents('table').find('input[name="txt"]').val();
+        if(status != 'undefined' && status != '' && status != null){
+            $.post(
+                "{:U(GROUP_NAME.'/Daikuan/changenews')}",
+                {id:id,status:status,xiaoxi:xiaoxi},
+                function(data,state){
+                    if(state != "success"){
+                        layer.msg("请求数据失败!");
+                    }else if(data.status == 1){
+                        layer.msg("保存成功!");
+                        setTimeout(function(){
+                            window.location.href = window.location.href;
+                        },2000);
+                    }else{
+                        layer.msg(data.msg);
+                    }
+                }
+            );
+        }else{
+            layer.msg("请选择订单状态!");
+        }
+    }
+
+    function allcheck(){
+        if($('#checkbox').is(":checked")){
+            $('input[name="checkbox"]').prop('checked','checked');
+        }else{
+            $('input[name="checkbox"]').prop('checked',false);
+        }
+    }
+
+function datadel(){
+    layer.confirm('确认要删除这些订单吗？',function(index){
+        var ids = '';
+        $("input[name='checkbox']").each(function(){
+            //console.log($(this).is(':checked'));
+            if($(this).is(':checked')){
+                var id = $(this).val();
+                if(id != 1){
+                    ids = ids+','+id;
+                }
+            }
+        });
+        ids = ids.substr(1);
+        console.log(ids);
+        $.ajax({
+            type: 'POST',
+            url: "{:U('Daikuan/delAll')}",
+            data:{ids:ids},
+            dataType: 'json',
+            success: function(data){
+                console.log(data);
+                if(data.code == 1){
+                    layer.msg(data.msg,{icon:1,time:1000});
+                    window.setTimeout('location.reload()',1000); 
+                }else{
+                    layer.msg(data.msg,{icon:5,time:1000});
+                }
+            },
+            error:function(data) {
+                console.log(data);
+                layer.close(index);
+            },
+        }); 
+    });
+}
+
+</script>

